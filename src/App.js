@@ -1,3 +1,14 @@
 import React from "react";
-import navbar from "./components/navbar";
-import Home from ""
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import Escola from "./components/Escola";
+import SobreMim from "./components/SobreMim";
+import "./index.css";
+
+export default function App(){
+  return(
+    <div className="front-sans">
+      <Navbar></Navbar>
+    </div>
+  )
+}
